@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	box-sizing: border-box;
+}
+body {
+	font-size: 18px;
+}
+h1 {
+	text-align: center;
+	font-size: 600%;
+	color: #DDAF0D;
+}
+div.login {
+	width: 500px;
+	top: 20%;
+	margin: 0 auto;
+	height: 10em;
+	position: relative;
+}
+div.login form {
+	height: 100px;
+}
+
+div.login form input {
+	font-size: 250%;
+	background-color: transparent;
+	border: none;
+	border-bottom: solid 2px;
+	outline: none;
+	color: #A1A1A1;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+button {
+	background-color: #A1A1A1;
+	color: #2F394B;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+div.login button {
+	position: relative;
+	top: 15%;
+	width: 70%;
+	height: 70px;
+	left: 15%;
+	font-size: 26px;
+}
+button #sendBtn {
+	font-size: 13px;
+}
+#userPage {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #3E4A5E;
+	opacity: 1;
+}
+#chatPage {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #F3F3F3;
+	opacity: 1;
+}
+#userForm {
+	position: relative;
+	width: 100%;
+}
+#messageForm {
+	font-size: 13px;
+	position: fixed;
+	bottom: 0;
+	height: 65px;
+	width: 100%;
+}
+#messageForm input {
+	font-size: 18px;
+	border: 0;
+	height: 50px;
+	bottom: 0;
+}
+#messageForm button {
+	margin-left: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	height: 50px;
+	background: #3E4A5E;
+	color: #DDAF0D;
+}
+
+#messages {
+	height: 92%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+#messages li {
+	padding: 5px 20px;
+}
+#messages li:nth-child(odd) {
+	background: #fff;
+}
+
+.log {
+	color: #DDAF0D;
+	font-style: bold;
+}
+
+.userDisplay {
+	color: blue;
+}
+
+.messageText {
+	color: black;
+}
+
+
+
+
