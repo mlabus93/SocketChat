@@ -96,7 +96,9 @@ button #sendBtn {
 }
 
 #messages {
-	height: 92%;
+	position: absolute;
+	width: 100%;
+	height: calc(100% - 70px);
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
